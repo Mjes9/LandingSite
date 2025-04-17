@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Shadows+Into+Light&display=swap');
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(62, 18, 101);
+    color: lightblue;
+    border-radius: 10px;
+}
+h1 {
+    font-family: "Indie Flower", cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
+i {
+    font-size: 50px;
+    color: white;
+    background-color: rgb(62, 18, 101);
+}
