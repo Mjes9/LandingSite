@@ -1,21 +1,83 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Shadows+Into+Light&display=swap');
 
-div {
+body {
+    margin: 0;
+}
+
+/* Header/Nav Bar */
+section:nth-of-type(1) {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
     background-color: rgb(62, 18, 101);
     color: lightblue;
-    border-radius: 10px;
+    border-radius: 0px;
+    font-family: "Indie Flower", cursive;
+}
+#title {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 30px;
 }
 h1 {
-    font-family: "Indie Flower", cursive;
-    font-size: 50px;
+    font-size: 60px;
     text-align: center;
 }
 
 i {
+    margin: 0 10px;
     font-size: 50px;
     color: white;
     background-color: rgb(62, 18, 101);
+}
+/* Links */
+#links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 10px;
+}
+
+/* Contact Info */
+#number {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    color: white;
+}
+h3 {
+    margin: 0;
+    font-size: 30px;
+}
+a {
+    font-size: 30px;
+    color: white;
+}
+
+/* Services/About Me */
+#info {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+/* Main Page */
+
+section:nth-of-type(2) {
+    font-family: "Indie Flower", cursive;
+    font-size: 30px;
+    color: lightblue;
+}
+
+body{
+    margin: 0;
+    background-image: url("cleaning-washing-cleanup-9420d2-1024.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+    text-align: center;
 }
