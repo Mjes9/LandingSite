@@ -1,12 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Shadows+Into+Light&display=swap');
 body {
     font-family: "Indie Flower", cursive;
-    background-color: white;
-    color: rgb(62, 18, 101);
     font-size: 20px;
+    color: lightskyblue;
+    background-color: azure;
+}
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+h4 {
+    font-size: 30px;
+    text-align: center;
 }
 a {
-    color: lightblue;
+    color: plum;
     text-decoration: none;
     font-size: 30px;
     font-style: italic;
