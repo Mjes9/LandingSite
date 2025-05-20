@@ -12,6 +12,8 @@ section:nth-of-type(1) {
     color: lightblue;
     border-radius: 0px;
     font-family: "Indie Flower", cursive;
+    top: 0;
+    position: sticky;
 }
 #title {
     position: sticky;
@@ -36,14 +38,14 @@ i {
 #links {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     font-size: 10px;
+    margin-right: 40px;
 }
 
 /* Contact Info */
-#number {
+#contact {
     display: flex;
-    justify-content: space-around;
     align-items: flex-start;
     color: white;
 }
@@ -57,9 +59,12 @@ a {
 }
 
 /* Services/About Me */
-#info {
+#services {
     display: flex;
-    justify-content: space-between;
+    color: white;
+}
+#aboutme {
+    display: flex;
     color: white;
 }
 
@@ -70,12 +75,13 @@ section:nth-of-type(2) {
     color: lightblue;
 }
 h1 {
-    font-size: 50px;
+    font-size: 75px;
     text-align: center;
     color: lightblue;
+    margin-top: 250px;
 }
 h2 {
-    font-size: 40px;
+    font-size: 45px;
     text-align: center;
     color: white;
 }
@@ -86,7 +92,5 @@ body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh;
-
-    text-align: center;
+    height: 150vh;
 }
